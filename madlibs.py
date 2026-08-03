@@ -1,8 +1,20 @@
 
 name= input("Enter a name: ")
+# if not type(name) is int: 
+#     raise TypeError("please [put in a name, not a number]")
 food= input("choose your faviorite food: ")
-sign= input("Please enter a zodiac sign: ") 
-sport= input("please enter a sport:")
+place= input("Please enter a place: ") 
+person= input("please enter a  name:")
+emotion= input("please enter a emotion:")
 
-print(f"My name is {name} and i lke to eat {food} and i am a {sign}.")
-print(f"I also like to play {sport} becuse its very fun")
+    
+story = f"""
+
+once upon a time a boy named {name} was walking in the woods and found {food} and decide to eat it because he was very hungry.
+After he finish eating his {food} he saw a {place} and wanted to stay the night in there because he didnt have no shelter.
+Once it was night {name} saw a guy and he had a name tag on his sweater. His name was {person}.
+And {name} was very scared becuase he was {emotion}.The End
+
+"""
+
+print(story)
